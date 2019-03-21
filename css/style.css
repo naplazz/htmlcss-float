@@ -7,7 +7,7 @@ body {
 main {
   background-color: lightgray;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding: 30px;
 }
 div {
@@ -97,12 +97,15 @@ float: left;
   text-align: justify;
 
 }
+.allcontenttop::after {
+  content: "";
+display: table;
+clear: both;
 
-.footer::before {
+}
+.footer {
 
-
-    content: "";
-    display: table;
-    clear: both;
+  position; relative;
+  background-color: white;
 
 }
